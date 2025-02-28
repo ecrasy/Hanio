@@ -5,12 +5,12 @@ Tower of Hanoi Using Recursion
 最近在复习Python  
 拿这个经典汉诺塔来练练手  
 ## 汉诺塔  
-有三个pillows和N个碟子disks  
-每次只能操作一个碟子disk  
+有3个pillows和n个碟子disks  
+每次只能操作1个碟子disk  
 大的碟子disk不能叠放到小的碟子disk之上  
 初始情况为：  
-N个碟子disks已经按照大小从下往上依次堆叠在第一个pilow上  
-问：把所有的disks从第一个pillow搬运到第三个pillow时需要多少个步骤  
+n个碟子disks已经按照大小从下往上依次堆叠在第1个pilow上  
+问：把所有的disks从第1个pillow搬运到第3个pillow时需要多少个步骤  
 ## 解题思路
 将disks分解为1和n-1  
 n-1个disks作为一个整体来看待  
@@ -20,10 +20,10 @@ n-1个disks作为一个整体来看待
 将其move到那个辅助的pillow上即可  
 
 ## code output
-Move disk 1 from source A to destination C  
-Move disk 2 from source A to destination B  
-Move disk 1 from source C to destination B  
-Move disk 3 from source A to destination C  
-Move disk 1 from source B to destination A  
-Move disk 2 from source B to destination C  
-Move disk 1 from source A to destination C  
+step 1 : Move disk 1 from source A to destination C  
+step 2 : Move disk 2 from source A to destination B  
+step 3 : Move disk 1 from source C to destination B  
+step 4 : Move disk 3 from source A to destination C  
+step 5 : Move disk 1 from source B to destination A  
+step 6 : Move disk 2 from source B to destination C  
+step 7 : Move disk 1 from source A to destination C  
