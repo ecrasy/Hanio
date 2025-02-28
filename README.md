@@ -19,4 +19,11 @@ n-1个disks作为一个整体来看待
 剩下的n-1个disks则递归调用n个disks的解法  
 将其move到那个辅助的pillow上即可  
 
-
+## code output
+Move disk 1 from source A to destination C  
+Move disk 2 from source A to destination B  
+Move disk 1 from source C to destination B  
+Move disk 3 from source A to destination C  
+Move disk 1 from source B to destination A  
+Move disk 2 from source B to destination C  
+Move disk 1 from source A to destination C  
