@@ -1,5 +1,7 @@
 # Hanio
 Tower of Hanoi Using Recursion  
+![image](tower-of-hanoi.png)  
+
 最近在复习Python  
 拿这个经典汉诺塔来练练手  
 ## 汉诺塔  
@@ -16,3 +18,5 @@ n-1个disks作为一个整体来看待
 只需要将其从source move到dest即可  
 剩下的n-1个disks则递归调用n个disks的解法  
 将其move到那个辅助的pillow上即可  
+
+
